@@ -1,0 +1,305 @@
+header{
+    top: 0;
+    padding: 0;
+    background-color: #363839;
+}
+
+
+html, body {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+   max-width: 1800px;
+}
+
+
+
+
+/*****************/
+/***** body ******/
+/*****************/
+body {
+    font-family: "freight-sans-pro", freightSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: .15em;
+    margin:auto;
+    min-width: 320px;
+}
+/*
+body.fixed-nav {
+  padding: 86px 0 0 0;
+}
+@media screen and (max-width:1025px) {
+  body.fixed-nav {
+    padding: 54px 0 0 0;
+  }
+}
+@media screen and (max-width:720px) {
+  body.fixed-nav {
+    padding: 54px 0 0 0;
+  }
+}
+*/
+
+.page{
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+    width: 100%;
+}
+
+
+.full-image {
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+
+.menu{
+    padding: 25 25 25 25;
+    margin: 25 35;
+}
+
+hr {
+   display: block;
+   position: relative;
+   padding: 0;
+   margin: 8px auto;
+   height: 0;
+   width: 100%;
+   max-height: 0;
+   font-size: 1px;
+   line-height: 0;
+   clear: both;
+   border: none;
+   border-top: 1px solid #aaaaaa;
+   border-bottom: 1px solid #ffffff;
+   opacity: 0.8;
+}
+
+
+/*****************/
+/***** home ******/
+/*****************/
+.main-intro {
+  background: url(Lyon.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1800px;
+  opacity: 0.9;
+  height: 100%;
+  width: 100%;
+  min-width: 320px;
+  color: white;
+  text-align: center;
+  font-family: "freight-sans-pro", freightSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  letter-spacing: .25em;
+}
+.v-center {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+/*****************/
+/***** about *****/
+/*****************/
+.about {
+    /*background-color: #223A47;*/
+    background-color: #fff;
+    color: #4f5153;
+    text-align: center;
+    padding: 5 100 5 100;
+}
+
+.about .about-picture {
+    margin-top: 15;
+    padding: 5;
+    font-family: "freight-sans-pro", freightSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.about-picture .centered{
+    isplay: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 150;
+    max-heigth: 150;
+    width: 100%;
+}
+.about .about-description {
+    text-align: center;
+    font-family: "freight-sans-pro", freightSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    max-width: 320;
+    margin-bottom: 15;
+}
+
+
+/*****************/
+/***** work ******/
+/*****************/
+.work {
+    max-width: 1800px;
+    background-color: #D2D4D4;
+}
+.work-title {
+    text-align: center;
+    padding: 15;
+    color: #4f5153;
+
+}
+
+.work-description {
+    text-align: center;
+    padding: 15 10 15 10;
+}
+.work .work-img {
+    text-align: center;
+    margin: 5 auto;
+    padding: 5 5 5 5;
+    max-width: 350
+}
+
+.img-circle{
+    border-radius: 50%;
+    padding: 10 ;
+}
+
+
+
+
+/********************/
+/** navigation bar **/
+/********************/
+.primary-navigation {
+  /*top: 0;*/
+
+  position: absolute;
+  width: 100%;
+  min-width: 320px;
+}
+
+.primary-navigation.fixed {
+  background: white;
+  background-color: #363839;
+  bottom: auto;
+  left: 10;
+  right: 10;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  -webkit-backface-visibility: hidden;
+}
+.primary-navigation .mark {
+  float: left;
+}
+.primary-navigation .links {
+  float: right;
+}
+.primary-navigation .links li {
+  float: left;
+  font-family: "freight-sans-pro", freightSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-size: 0.875em;
+  letter-spacing: .20em;
+  /*margin: 0 0 0 35px;*/
+  padding-left: 0.9em;
+  list-style-type: none;
+  text-align: left;
+}
+.primary-navigation .links li a {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.6;
+}
+.primary-navigation.fixed .links li a {
+  color: #33384A;
+  opacity: 0.6;
+}
+.primary-navigation.fixed .links li a:hover,
+.primary-navigation .links li a.active,
+.primary-navigation .links li a:hover {
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
+
+
+
+/*****************/
+/**** contact ****/
+/*****************/
+.contact {
+    /*background-color: #363839;*/
+    background-color: #fff;
+    color: #363839;
+    text-align: center;
+    height: 30%;
+    position: relative;
+}
+
+.contact .network{
+    position: relative;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.contact .network ul{
+    padding: 0;
+}
+
+.contact .network li{
+    list-style-type: none;
+    display: inline;
+    padding: 0 20 0 20;
+}
+
+.contact .network li a {
+  /*color: #fff;*/
+  color: #363839;
+  text-decoration: none;
+
+}
+
+.contact .network li a.active,
+.contact .network li a:hover {
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
+
+/*****************/
+/**** footer *****/
+/*****************/
+
+footer{
+    bottom: 0;
+    padding: 10 0 5 0;
+    background-color: #363839;
+}
+
+
+.copyright{
+    color: #fff;
+}
+
+.copyright a{
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+
+.copyright a:active,
+.copyright a:hover{
+  text-decoration: underline;
+  opacity: 0.9;
+}
